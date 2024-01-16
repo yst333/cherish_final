@@ -1,7 +1,16 @@
 <h1>CHERISH</h1>
 <h3>아이돌의 콘서트 일정, 음악, 뮤비, 화보등을 볼 수 있는 팬 커뮤니티 반응형 웹사이트</h3>
-
-<strong>🍒Overview</strong>
+<div>
+<!--TEAM-->
+<img src="https://github.com/yst333/cherish_final/assets/141698056/4d0a6bca-5c50-43e6-b5df-3f0138d0b8d5)">
+<!--OVERVIEW-->
+<img src="https://github.com/yst333/cherish_final/assets/141698056/12d93767-7341-4e50-8a26-1bec12af0729" >
+<!--PERSONA-->
+<img src="https://github.com/yst333/cherish_final/assets/141698056/111e8e44-bad5-4016-b4ab-ff0be042f68f">
+<!--NEEDS-->
+<img src="https://github.com/yst333/cherish_final/assets/141698056/762fcd7c-2f1b-418d-a04a-e0dad649babb" >
+</div>
+<strong>&nbsp;🍒Overview</strong>
 <p>K-POP 아이돌 팬 커뮤니티 반응형 웹 UI는 Axios, Reactstrap, Bootstrap 을 이용해서 반응형 웹 사이트를 구현하였습니다. SpringBoot를 기반으 로 웹을 구현하였습니다. 화려한 미디어요소들을 배치하고 로그인/로그아 웃, 자유게시판, 1:1문의 게시판 기능을 제공합니다.</p>
 
 <h3>⌨️ 개발언어</h3>
@@ -85,31 +94,67 @@
   </li>
 </ul>
 
+<br><br>
+
 
 <h2>🖥️ 웹페이지 기능</h2>
 <h3>🗓️ Main</h3>
 <p>Reactstrap, Bootstrap 적용한 반응형 웹 메인 페이지입니다.
 Chatbot API 연동을 하여 고객상담이 가능하고 React 캘린더 library를 적용하여 아이돌별 스케줄을 확인할 수 있습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/5e083e2d-5fd5-44a7-9b0b-5cfe2eba99e4" style="width:33%;">
+<img src="https://github.com/yst333/cherish_final/assets/141698056/5c580da8-b3bd-4dc9-b03c-232fa00c0c48" style="width:33%;">
+<img src="https://github.com/yst333/cherish_final/assets/141698056/71b56da4-0b30-4953-bd3f-e98ed0301d3d" style="width:33%;">
+
+
+<br><br>
+
 <h3>📍 회사소개</h3>
 <p>회사소개/찾아오시는길 페이지입니다.
 Open API (Kakao 지도 API) 연동하여 회사 위치를 알 수 있습니다.
 aos library를 적용하여 스크롤 시 동적 효과를 주었습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/07df3b48-09dc-4778-b444-8af147e105ea">
+
+<br><br>
+
 <h3>🎁 굿즈</h3>
 <p>상품 페이지입니다.
 swiper library를 적용하여 이미지 슬라이드가 가능하도록 구현하였습니다.
 Route component를 이용하여 탭메뉴 기능을 구현하였습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/08b23a5d-3381-414e-ac7e-03efadb50fab">
+
+<br><br>
+
 <h3>☑️ Join</h3>
 <p>Kakao 지도 Api를 이용하여 회원가입시 주소를 입력할 수 있도록 하였습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/ccb88268-2127-4565-8553-56adeb3e55b4">
+
+<br><br>
+
 <h3>➡️ Login</h3>
 <p>axios를 이용해서 아이디와 비밀번호를 입력받은 후 데이터베이스에 있는 정보와 일치하면 로그인이 가능합니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/f05a6ad5-3898-43bd-9e40-0dcc1bbc2bf5">
+
+<br><br>
+
 <h3>⬅️ Logout</h3>
 <p>Item 속성에 입력된 member_id와 name 속성을 제거하는 removeItem() 메서드를 사용하여 로그아웃 처리하였습니다.</p>
+
+<br><br>
+
 <h3>💬 1:1문의</h3>
 <p>fetch 메서드를 사용하여 입력받은 문의사항을 데이터베이스에서 확인할 수 있도록 구현하였습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/53c741f0-f361-4bf6-8b3d-892cfa29defe">
+
+<br><br>
+
 <h3>📋 게시판</h3>
 <p>axios 로 json값을 받아 게시판 CRUD 기능을 구현하였습니다</p>
+
+<br><br>
+
 <h3>❓FAQ</h3>
 <p>React-bootstrap의 아코디언 라이브러리를 사용하였습니다</p>
+
 <h3>🤝 Community</h3>
 <p>react-bootstrap의 Col, Row 컴포넌트로 그리드를 활용한 반응형 웹 구현하였습니다.
 findTopByOrderByArticleDesc()메서드로 게시글이 최신순으로 조회하도록 하였습니다.
