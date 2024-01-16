@@ -11,7 +11,7 @@
 <img src="https://github.com/yst333/cherish_final/assets/141698056/762fcd7c-2f1b-418d-a04a-e0dad649babb" >
 </div>
 <strong>&nbsp;🍒Overview</strong>
-<p>K-POP 아이돌 팬 커뮤니티 반응형 웹 UI는 Axios, Reactstrap, Bootstrap 을 이용해서 반응형 웹 사이트를 구현하였습니다. SpringBoot를 기반으 로 웹을 구현하였습니다. 화려한 미디어요소들을 배치하고 로그인/로그아 웃, 자유게시판, 1:1문의 게시판 기능을 제공합니다.</p>
+<p>K-POP 아이돌 팬 커뮤니티 반응형 웹 UI는 Axios, Reactstrap, Bootstrap 을 이용해서 반응형 웹 사이트를 구현하였습니다. SpringBoot를 기반으로 웹을 구현하였습니다. 화려한 미디어요소들을 배치하고 로그인/로그아웃, 자유게시판, 1:1문의 게시판 기능을 제공합니다.</p>
 
 <h3>⌨️ 개발언어</h3>
 <ul>
@@ -87,9 +87,6 @@
     <code>Trello</code>
   </li>
   <li>
-    <code>Agile</code>
-  </li>
-  <li>
     <code>Kanban Board</code>
   </li>
 </ul>
@@ -138,27 +135,23 @@ Route component를 이용하여 탭메뉴 기능을 구현하였습니다.</p>
 
 <h3>⬅️ Logout</h3>
 <p>Item 속성에 입력된 member_id와 name 속성을 제거하는 removeItem() 메서드를 사용하여 로그아웃 처리하였습니다.</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/7937f6d1-365d-4c68-b599-6c24d7f13562">
 
 <br><br>
 
-<h3>💬 1:1문의</h3>
-<p>fetch 메서드를 사용하여 입력받은 문의사항을 데이터베이스에서 확인할 수 있도록 구현하였습니다.</p>
+<h3>💬 FAQ / 1:1문의</h3>
+<p>FAQ - React-bootstrap의 아코디언 라이브러리를 사용하였습니다</p>
+<p>1:1문의 - fetch 메서드를 사용하여 입력받은 문의사항을 데이터베이스에서 확인할 수 있도록 구현하였습니다.</p>
 <img src="https://github.com/yst333/cherish_final/assets/141698056/53c741f0-f361-4bf6-8b3d-892cfa29defe">
 
 <br><br>
 
-<h3>📋 게시판</h3>
-<p>axios 로 json값을 받아 게시판 CRUD 기능을 구현하였습니다</p>
-
-<br><br>
-
-<h3>❓FAQ</h3>
-<p>React-bootstrap의 아코디언 라이브러리를 사용하였습니다</p>
-
-<h3>🤝 Community</h3>
+<h3>🤝 Community 게시판</h3>
 <p>react-bootstrap의 Col, Row 컴포넌트로 그리드를 활용한 반응형 웹 구현하였습니다.
 findTopByOrderByArticleDesc()메서드로 게시글이 최신순으로 조회하도록 하였습니다.
-Community 게시판의 CRUD 기능을 별도의 URL 로 RequestMapping하고 React pakage.json에 Proxy를 추가하여 연동하였습니다.</p>
+Community 게시판의 CRUD 기능을 별도의 URL로 RequestMapping하고 React pakage.json에 Proxy를 추가하여 연동 후, axios로 json값을 받아 조회하도록 하였습니다.
+</p>
+<img src="https://github.com/yst333/cherish_final/assets/141698056/90fc50b7-828b-43da-9734-7cd34fc890ef">
 
 <h3>구동 방법</h3>
 <p>README.md 참조</p>
